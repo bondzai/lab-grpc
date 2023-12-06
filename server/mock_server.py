@@ -16,4 +16,5 @@ def server():
    print("gRPC starting")
    server.start()
    server.wait_for_termination()
+
 server()
