@@ -1,11 +1,11 @@
 import React from 'react';
-import GrpcClient from './components/GrpcClient';
+import MyComponent from './components/GrpcClient';
 
 const App: React.FC = () => {
   return (
     <div>
-      <h1>React gRPC Client</h1>
-      <GrpcClient />
+      <h1>grpc</h1>
+      <MyComponent helloMessage="Hello, World!" />
     </div>
   );
 };

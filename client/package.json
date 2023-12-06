@@ -11,10 +11,13 @@
   },
   "dependencies": {
     "@types/node": "^20.10.3",
+    "@types/protobufjs": "^6.0.0",
     "google-protobuf": "^3.21.2",
     "grpc-web": "^1.5.0",
+    "protobufjs": "^7.2.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "ts-proto": "^1.165.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.42",
@@ -25,6 +28,7 @@
     "eslint": "^8.53.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
+    "protoc-gen-ts": "^0.8.7",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
   }
